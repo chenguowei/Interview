@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenguowei/CLionProjects/interview/duoluguibing/externSort.c
+assert.h
+-
+time.h
+-
+stdio.h
+-
+memory.h
+-
+stdlib.h
+-
+

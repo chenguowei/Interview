@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="interview"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenguowei/CLionProjects/interview/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chenguowei/CLionProjects/interview/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chenguowei/CLionProjects/interview/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interview">
+				<Option output="/Users/chenguowei/CLionProjects/interview/cmake-build-debug/interview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenguowei/CLionProjects/interview/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 interview"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interview/fast">
+				<Option output="/Users/chenguowei/CLionProjects/interview/cmake-build-debug/interview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenguowei/CLionProjects/interview/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 interview/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/chenguowei/CLionProjects/interview/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/Quick/selectQuick.cpp">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/RedBlackTree/rb_tree.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/bitset/procdata.cpp">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/bitset/sort.cpp">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/duoluguibing/ExternSort.cpp">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/duoluguibing/externSort.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/hash/hash.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/main.cpp">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/memchr.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/memcmp.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/memcpy.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/memmove.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/memset.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strcat.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strchr.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strcmp.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strcpy.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strcspn.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strlen.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strncat.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strncmp.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strncpy.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strnset.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strpbrk.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strspn.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/string/strstr.c">
+			<Option target="interview"/>
+		</Unit>
+		<Unit filename="/Users/chenguowei/CLionProjects/interview/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

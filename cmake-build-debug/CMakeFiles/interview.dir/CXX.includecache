@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenguowei/CLionProjects/interview/bitset/procdata.cpp
+iostream
+-
+time.h
+-
+assert.h
+-
+
+/Users/chenguowei/CLionProjects/interview/bitset/sort.cpp
+iostream
+-
+bitset
+-
+assert.h
+-
+time.h
+-
+
+/Users/chenguowei/CLionProjects/interview/duoluguibing/ExternSort.cpp
+iostream
+-
+string
+-
+algorithm
+-
+time.h
+-
+
+/Users/chenguowei/CLionProjects/interview/main.cpp
+iostream
+-
+
