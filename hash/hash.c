@@ -53,4 +53,7 @@ unsigned long HashString(char *lpszFileName, unsigned long dwHashType)
 	}
 
   return seed1;
+
 }
+
+
