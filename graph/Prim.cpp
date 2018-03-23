@@ -146,7 +146,7 @@ void prim(Graph_List g, int begin)
       arc = arc->next;
     }
 
-  //把起点的close_edge中的值设为-1，代表已经加入到集合U了
+  //把起点的close_edge中的值设为-1，代表已经加入到集合U了		怎么判断是否成环尼？？？？？？、
   close_edge[begin-1].weight = -1;
   // 访问剩下的顶点，并依次加入到集合U
   for (j = 1; j < g.vexnum; j++)
@@ -158,7 +158,7 @@ void prim(Graph_List g, int begin)
       // 寻找数组 close_edge中权重最小的那个边
       for ( k = 0; k < g.vexnum; k++)
         {
-          if (close_edge[k].weight != -1)
+          if (close_edge[k].weight != -1)	// 如果close_edge[k].weight == -1 代表这个终点 k 已在集合U 中
             {
               if (close_edge[k].weight < min)
                 {
@@ -198,7 +198,7 @@ int main()
 {
   Graph_List g;
   createGraph (g);
-  printf (g);
+  print (g);
   prim (g, 1);
 
   return 0;
