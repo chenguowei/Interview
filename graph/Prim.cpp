@@ -127,7 +127,7 @@ void prim(Graph_List g, int begin)
 {
   cout << "图的最小生成树：" << endl;
   // close_edge 这个数组记录到达某个顶点的各个边中权重最大那个边
-  Assis_array* close_edge = new Assis_array[g.vexnum];
+  Assis_array* close_edge = new Assis_array[g.vexnum]; // 保存顶点到 最小生成树最小的边， 最多保存 g.vexnum条边
 
   int j;
   // 初始化 close_adge
@@ -180,8 +180,10 @@ void prim(Graph_List g, int begin)
       close_edge[index].weight = -1;
       // 更新我们的close_edge数组, 把下个顶点所有关联的边填入到close_edge，不回覆盖close_edge吗？
       ArcNode *temp = g.node[close_edge[index].end].firstarc;
+
       while (temp)
         {
+          // 更新 close_edge[v] 中的有效边，close_edge[] 保存所有顶点到最小生成树顶点的最小边
           if (close_edge[temp->adjvex].weight > temp->weight)
             {
               close_edge[temp->adjvex].weight = temp->weight;
