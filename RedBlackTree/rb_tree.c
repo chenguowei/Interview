@@ -331,11 +331,11 @@ static rb_node_t* rb_erase(key_t key, rb_node_t* root)
         {
           if (parent->left == node) // 如果右边最小结点 位于左结点
             {
-              parent->left = node;
+              parent->left = child;
             }
           else
             {
-              parent->right = node;
+              parent->right = child;
             }
         }
       else
